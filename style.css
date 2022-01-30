@@ -332,4 +332,15 @@
     .links .links-inner ul {
       margin-bottom: 20px;
     }
+    .footer ul {
+      display: grid;
+      grid-template-columns: repeat(3,1fr);
+    }
+    .footer ul li{
+      margin-right: 2px;
+      margin-bottom: 10px;
+    }
+    .footer div{
+      display: inline-block;
+    }
   }
